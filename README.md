@@ -7,13 +7,13 @@
     - [X] title
     - [X] date 
     - [X] description
-- [] Like an image
-- [] Unlike an image
+- [X] Like an image
+- [X] Unlike an image
 
 ## Tech Stack:
 - React
 - TypeScript
 
-'''
+````
 make a .env with REACT_APP_API_KEY = nasa api here
-'''
+````

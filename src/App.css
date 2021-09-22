@@ -1,6 +1,7 @@
-img { 
-  height: 400px;
-  width: 300px;
+img{
+  width:100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
 }
 ul li{
   list-style-type: none;
@@ -13,8 +14,40 @@ ul li{
 }
 .card{
   margin: 20px 0;
-  width:500px;
-  height: 800px;
+  max-width:500px;
   border-radius:5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.postHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+.desc{
+  padding:15px;
+}
+
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 15px;
+
+}
+.unlike-heart{
+    fill: gray;
+    position: relative;
+    top: 5px;
+    width: 15px;
+}
+.liked-btn{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:none;
+}
+.liked-btn:hover{
+  cursor: pointer;
 }
